@@ -1,6 +1,6 @@
 import { Product, RawProduct } from '../types';
 
-const API_BASE = '/react_phone-catalog/api';
+const API_BASE = `${import.meta.env.BASE_URL}api`.replace(/\/$/, '');
 
 export const api = {
   async getProducts(): Promise<Product[]> {
