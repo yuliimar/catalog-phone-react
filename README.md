@@ -27,8 +27,8 @@ Follow these steps to set up the project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yuliimar/catalog-phone-react.git
-cd catalog-phone-react
+git clone https://github.com/<your_account>/<repo_name>.git
+cd <repo_name>
 ```
 
 ### 2. Install dependencies
